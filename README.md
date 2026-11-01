@@ -15,12 +15,18 @@
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
   <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
 </p>
 
 ---
 
 ### 🔭 What I'm working on
 
+- **PPMS — Printing & Packaging Management System** — an ERP for a make-to-order printing and packaging factory, in English and Myanmar. It follows each job from quotation → job card → pre-press → production and subcontracting → quality control → stock → delivery → invoice, with a live floor board, an append-only stock ledger, costing and quotations in kyat, role-based permissions with an audit log, and Myanmar PDFs. All 20 modules from the client's proposal have a working first slice, covered by 200+ test files. NestJS + PostgreSQL (Drizzle) + React 19, Socket.io, BullMQ, deployed on one server with Docker. *(private repo)*
 - **Calorie tracker for fitness trainers** — a web app where clients snap a photo of a meal, an AI vision model estimates the calories, and progress (weight, check-ins, photos) is tracked over time. FastAPI + Supabase (Postgres with row-level security) + Gemini, deployed on Vercel. *(private repo, in trial)*
 - **[FocusOs](https://github.com/htetmyet19/FocusOs)** — a productivity tracker for Windows.
 
