@@ -26,7 +26,7 @@
 
 ### 🔭 What I'm working on
 
-- **PPMS — Printing & Packaging Management System** — an ERP for a make-to-order printing and packaging factory, in English and Myanmar. It follows each job from quotation → job card → pre-press → production and subcontracting → quality control → stock → delivery → invoice, with a live floor board, an append-only stock ledger, costing and quotations in kyat, role-based permissions with an audit log, and Myanmar PDFs. All 20 modules from the client's proposal have a working first slice, covered by 200+ test files. NestJS + PostgreSQL (Drizzle) + React 19, Socket.io, BullMQ, deployed on one server with Docker. *(private repo)*
+- **PPMS — Printing & Packaging Management System** — an ERP for a make-to-order printing and packaging factory, in English and Myanmar. It follows each job from quotation → job card → pre-press → production and subcontracting → quality control → stock → delivery → invoice, with a live floor board, an append-only stock ledger, costing and quotations in kyat, role-based permissions with an audit log, and Myanmar PDFs. All 20 modules from the requirements proposal have a working first slice, covered by 200+ test files. NestJS + PostgreSQL (Drizzle) + React 19, Socket.io, BullMQ; deploys to a single server with Docker Compose. *(private repo)*
 - **Calorie tracker for fitness trainers** — a web app where clients snap a photo of a meal, an AI vision model estimates the calories, and progress (weight, check-ins, photos) is tracked over time. FastAPI + Supabase (Postgres with row-level security) + Gemini, deployed on Vercel. *(private repo, in trial)*
 - **[FocusOs](https://github.com/htetmyet19/FocusOs)** — a productivity tracker for Windows.
 
