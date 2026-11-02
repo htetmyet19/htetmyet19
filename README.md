@@ -27,13 +27,14 @@
 ### 🔭 What I'm working on
 
 - **PPMS — Printing & Packaging Management System** — an ERP for a make-to-order printing and packaging factory, in English and Myanmar. It follows each job from quotation → job card → pre-press → production and subcontracting → quality control → stock → delivery → invoice, with a live floor board, an append-only stock ledger, costing and quotations in kyat, role-based permissions with an audit log, and Myanmar PDFs. All 20 modules from the requirements proposal have a working first slice, covered by 200+ test files. NestJS + PostgreSQL (Drizzle) + React 19, Socket.io, BullMQ; deploys to a single server with Docker Compose. *(private repo)*
-- **Calorie tracker for fitness trainers** — a web app where clients snap a photo of a meal, an AI vision model estimates the calories, and progress (weight, check-ins, photos) is tracked over time. FastAPI + Supabase (Postgres with row-level security) + Gemini, deployed on Vercel. *(private repo, in trial)*
+- **[Calorie tracker for fitness trainers](https://github.com/htetmyet19/calorie-tracker)** — a web app where clients snap a photo of a meal, an AI vision model estimates the calories, and progress (weight, check-ins, photos) is tracked over time. FastAPI + Supabase (Postgres with row-level security) + Gemini, deployed on Vercel. *(in trial · [live app](https://calorie-tracker-indol-theta.vercel.app))*
 - **[FocusOs](https://github.com/htetmyet19/FocusOs)** — a productivity tracker for Windows.
 
 ### 🚀 Featured projects
 
 | Project | What it does | Built with |
 |---|---|---|
+| **[Calorie Tracker](https://github.com/htetmyet19/calorie-tracker)** · [live](https://calorie-tracker-indol-theta.vercel.app) | Snap a meal photo and an AI vision model returns the foods, portions, calories and macros; tracks weight, weekly check-ins and progress photos. Per-user data isolation with Postgres Row Level Security; installable on Android and iPhone. | FastAPI, Supabase, PostgreSQL, Gemini, JS, Vercel |
 | **[FocusOs](https://github.com/htetmyet19/FocusOs)** | Monitors the active Windows app, detects idle time, groups activity into focus sessions, classifies window titles with a small ML model and shows the results in a web dashboard. Includes a Focus Mode. | C++, Python, scikit-learn, SQL, JS |
 | **[Fake News Detector](https://github.com/htetmyet19/fakenews_dectector)** | Fine-tuned **BERT** classifier that labels a news text as real or fake, served through a Flask web app. | PyTorch, Hugging Face Transformers, Flask |
 | **[Neural Two-Tower Recommender](https://github.com/htetmyet19/recommender)** | Movie recommender on MovieLens: user and movie towers map into a shared 32-dim space; genres help with cold-start; top-K retrieval. | TensorFlow / Keras, Pandas |
